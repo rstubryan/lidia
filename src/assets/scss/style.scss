@@ -1,0 +1,8 @@
+$primary: #4475F2;
+$secondary: #181E4B;
+
+h1, h2, h3, h4, h5, h6, p {
+  color: $secondary !important;
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
