@@ -14,6 +14,7 @@ export default defineComponent({
       <span class="text-primary text-decoration-underline link-offset-2"
         >fav book</span
       >
+      effortlessly
     </template>
 
     <template #hero-left-heading-desc>
