@@ -11,7 +11,9 @@ import Container from "@/components/Container.vue";
             <slot name="hero-left-heading"></slot>
           </h1>
           <div class="py-3">
-            <p class="lh-lg"><slot name="hero-left-heading-desc"></slot></p>
+            <p class="lh-lg mt-3">
+              <slot name="hero-left-heading-desc"></slot>
+            </p>
           </div>
           <button class="btn btn-primary fw-semibold text-white shadow-lg">
             <slot name="hero-left-button"></slot>
