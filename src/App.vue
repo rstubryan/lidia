@@ -4,6 +4,7 @@ import Hero from "@/components/Hero.vue";
 import Feature from "@/components/Feature.vue";
 import Service from "@/components/Service.vue";
 import Review from "@/components/Review.vue";
+import Location from "@/components/Location.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Review from "@/components/Review.vue";
     <Feature></Feature>
     <Service></Service>
     <Review></Review>
+    <Location></Location>
   </main>
 </template>
 
