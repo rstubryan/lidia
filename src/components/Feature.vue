@@ -6,53 +6,35 @@ import FeatureItem from "@/components/FeatureItem.vue";
   <FeatureItem>
     <template #subheading-feature> Features </template>
     <template #heading-feature> 🤔• What You Can Do? </template>
-    <template #feature-left>
-      <div class="d-grid justify-content-center mt-3">
-        <button class="btn btn-primary rounded-4 shadow-lg">
-          <i class="bi bi-search text-white fs-2"></i>
-        </button>
-      </div>
-      <div class="text-center">
-        <div class="mt-3">
-          <h4 class="fw-bold">Search Book</h4>
-        </div>
-        <p class="mt-3">
-          Effortlessly find your next read with our powerful and intuitive book
-          search.
-        </p>
-      </div>
+    <template #feature-left-icon>
+      <button class="btn btn-primary rounded-4 shadow-lg">
+        <i class="bi bi-search text-white fs-2"></i>
+      </button>
     </template>
-    <template #feature-center>
-      <div class="d-grid justify-content-center mt-3">
-        <button class="btn btn-primary rounded-4 shadow-lg">
-          <i class="bi bi-chat text-white fs-2"></i>
-        </button>
-      </div>
-      <div class="text-center">
-        <div class="mt-3">
-          <h4 class="fw-bold">Review Book</h4>
-        </div>
-        <p class="mt-3">
-          Discover insightful critiques and share your thoughts on diverse
-          literary masterpieces effortlessly.
-        </p>
-      </div>
+    <template #feature-left-heading>Search Book</template>
+    <template #feature-left-heading-desc
+      >Effortlessly find your next read with our powerful and intuitive book
+      search.
     </template>
-    <template #feature-right>
-      <div class="d-grid justify-content-center mt-3">
-        <button class="btn btn-primary rounded-4 shadow-lg">
-          <i class="bi bi-heart text-white fs-2"></i>
-        </button>
-      </div>
-      <div class="text-center">
-        <div class="mt-3">
-          <h4 class="fw-bold">Wishlist book</h4>
-        </div>
-        <p class="mt-3">
-          Curate your literary dreams–wishlist books for future adventures and
-          discoveries.
-        </p>
-      </div>
+    <template #feature-center-icon>
+      <button class="btn btn-primary rounded-4 shadow-lg">
+        <i class="bi bi-chat text-white fs-2"></i>
+      </button>
+    </template>
+    <template #feature-center-heading>Review Book</template>
+    <template #feature-center-heading-desc
+      >Discover insightful critiques and share your thoughts on diverse literary
+      masterpieces effortlessly.
+    </template>
+    <template #feature-right-icon>
+      <button class="btn btn-primary rounded-4 shadow-lg">
+        <i class="bi bi-heart text-white fs-2"></i>
+      </button>
+    </template>
+    <template #feature-right-heading>Wishlist book</template>
+    <template #feature-right-heading-desc>
+      Curate your literary dreams–wishlist books for future adventures and
+      discoveries.
     </template>
   </FeatureItem>
 </template>

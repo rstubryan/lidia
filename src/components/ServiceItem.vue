@@ -4,7 +4,7 @@ import Container from "@/components/Container.vue";
 
 <template>
   <Container>
-    <div class="py-5">
+    <div class="py-3">
       <div>
         <div class="py-2">
           <span class="text-primary fw-bold text-uppercase">
@@ -26,7 +26,7 @@ import Container from "@/components/Container.vue";
             <h4>
               <slot name="service-top-right"></slot>
             </h4>
-            <p><slot name="service-top-right-desc"></slot>/</p>
+            <p><slot name="service-top-right-desc"></slot></p>
           </div>
         </div>
       </div>
