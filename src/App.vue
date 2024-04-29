@@ -1,28 +1,33 @@
 <script setup>
-import Navbar from "./components/Navbar.vue";
-import Hero from "@/components/Hero.vue";
-import Feature from "@/components/Feature.vue";
-import Service from "@/components/Service.vue";
-import Review from "@/components/Review.vue";
-import Location from "@/components/Location.vue";
-import Footer from "@/components/Footer.vue";
+import HeroContent from "@/components/heroes/HeroContent.vue";
+import FeatureContent from "@/components/features/FeatureContent.vue";
+import ServiceContent from "@/components/services/ServiceContent.vue";
+import ReviewContent from "@/components/reviews/ReviewContent.vue";
+import LocationContent from "@/components/locations/LocationContent.vue";
+import FooterContent from "@/components/global/FooterContent.vue";
+import BackgroundCover from "@/components/icons/CoverBackground.vue";
+import ComponentNavbar from "@/components/global/ComponentNavbar.vue";
 </script>
 
 <template>
+  <div class="d-none d-lg-block z-n1 position-absolute top-0 start-50">
+    <BackgroundCover />
+  </div>
+
   <header>
-    <Navbar></Navbar>
+    <ComponentNavbar></ComponentNavbar>
   </header>
 
   <main>
-    <Hero></Hero>
-    <Feature></Feature>
-    <Service></Service>
-    <Review></Review>
-    <Location></Location>
+    <HeroContent></HeroContent>
+    <FeatureContent></FeatureContent>
+    <ServiceContent></ServiceContent>
+    <ReviewContent></ReviewContent>
+    <LocationContent></LocationContent>
   </main>
 
   <footer>
-    <Footer></Footer>
+    <FooterContent></FooterContent>
   </footer>
 </template>
 

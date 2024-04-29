@@ -1,11 +1,9 @@
 <script setup>
-import ReviewItem from "@/components/ReviewItem.vue";
+import ReviewItem from "@/components/reviews/ReviewItem.vue";
 </script>
 
 <template>
   <ReviewItem>
-    <template #subheading-review>Reviews</template>
-    <template #heading-review>💬• Reviews of Others</template>
     <template #review-left-desc
       >Engaging plot, vivid characters; a captivating read that lingers in your
       thoughts.

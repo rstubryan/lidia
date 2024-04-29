@@ -1,5 +1,5 @@
 <script setup>
-import LocationItem from "@/components/LocationItem.vue";
+import LocationItem from "@/components/locations/LocationItem.vue";
 </script>
 
 <template>

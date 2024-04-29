@@ -1,11 +1,9 @@
 <script setup>
-import FeatureItem from "@/components/FeatureItem.vue";
+import FeatureItem from "@/components/features/FeatureItem.vue";
 </script>
 
 <template>
   <FeatureItem>
-    <template #subheading-feature> Features </template>
-    <template #heading-feature> 🤔• What You Can Do? </template>
     <template #feature-left-icon>
       <button class="btn btn-primary rounded-4 shadow-lg">
         <i class="bi bi-search text-white fs-2"></i>

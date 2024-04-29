@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from "vue";
-import HeroItem from "@/components/HeroItem.vue";
+import HeroItem from "@/components/heroes/HeroItem.vue";
 
 export default defineComponent({
   components: { HeroItem },
@@ -31,7 +31,6 @@ export default defineComponent({
     <template #hero-right>
       <div>
         <h1>Hello</h1>
-        <BooksHero></BooksHero>
       </div>
     </template>
   </HeroItem>

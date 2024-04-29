@@ -1,12 +1,9 @@
 <script setup>
-import ServiceItem from "@/components/ServiceItem.vue";
+import ServiceItem from "@/components/services/ServiceItem.vue";
 </script>
 
 <template>
   <ServiceItem>
-    <template #subheading-service> Services </template>
-    <template #heading-service> 🚀• The Services for You </template>
-    <template #service-top-left></template>
     <template #service-top-right>
       <span class="text-primary">Rent</span> your favorite book fairly easy on
       <span class="text-primary">Lidia!</span></template
